@@ -25,7 +25,6 @@
             width: 1200px;
             height: 100vh;
             margin: 0 auto;
-            border: 1px solid red;
         }
         
         .content {
@@ -39,6 +38,30 @@
             color: aqua;
             text-shadow: aliceblue 2px 1px 3px;
         }
+        
+        @media screen and (max-width: 500px) {
+            .layout {
+                background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+                width: 100%;
+                height: 100vh;
+                box-sizing: border-box;
+            }
+            .index {
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+            }
+            .content {
+                padding-top: 1em;
+            }
+            .content h3,
+            p {
+                text-align: center;
+                font-size: 1rem;
+                color: aqua;
+                text-shadow: aliceblue 2px 1px 3px;
+            }
+        }
     </style>
 </head>
 
@@ -48,6 +71,7 @@
             <div class="content">
                 <h3>你好,欢迎进入DRAGONTAIL的测试页面!</h3>
                 <p>这个网页托管到github上,欢迎大家访问!~_~</p>
+
             </div>
 
         </div>
