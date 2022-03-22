@@ -1,5 +1,9 @@
 # dragantail.github.io
+第一版
 ![image](https://user-images.githubusercontent.com/102178291/159554375-2078c947-be41-48eb-ad34-ac3476a663ad.png)
+第二版
+![image](https://user-images.githubusercontent.com/102178291/159562673-0608eae0-70f7-4709-9720-183ce0ad8438.png)
+
 Quick setup — if you’ve done this kind of thing before
 or	
 https://github.com/dragantail/dragantail.github.io.git
