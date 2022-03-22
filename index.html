@@ -6,75 +6,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hello!github!</title>
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            box-sizing: border-box;
-        }
-        
         .layout {
             background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
             width: 100%;
-            height: 100vh;
-            box-sizing: border-box;
+            height: 1080px;
         }
         
-        .index {
-            width: 1200px;
-            height: 100vh;
-            margin: 0 auto;
-        }
-        
-        .content {
-            margin-top: 300px;
-        }
-        
-        .content h3,
-        p {
+        .box h3 {
             text-align: center;
-            font-size: 50px;
             color: aqua;
-            text-shadow: aliceblue 2px 1px 3px;
+            text-shadow: aliceblue 1px 1px 1px;
         }
         
-        @media screen and (max-width: 500px) {
-            .layout {
-                background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
-                width: 100%;
-                height: 100vh;
-                box-sizing: border-box;
-            }
-            .index {
-                width: 100%;
-                height: 100%;
-                margin: 0 auto;
-            }
-            .content {
-                padding-top: 1em;
-            }
-            .content h3,
-            p {
-                text-align: center;
-                font-size: 1rem;
-                color: aqua;
-                text-shadow: aliceblue 2px 1px 3px;
-            }
+        .box p {
+            text-align: center;
+            color: black;
+            text-shadow: aliceblue 1px 1px 1px;
         }
     </style>
 </head>
 
 <body>
-    <div class="layout">
-        <div class="index">
-            <div class="content">
-                <h3>你好,欢迎进入DRAGONTAIL的测试页面!</h3>
-                <p>这个网页托管到github上,欢迎大家访问!~_~</p>
+    <div class=" layout container-fluid">
 
+        <div class="container">
+            <div class="container">
+
+
+                <!-- Nav pills -->
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home">
+                            《青玉案·元夕》
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu1">
+                            《永遇乐·京口北固亭怀古》
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">
+                            《西江月·夜行黄沙道中》
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active text-center"><br>
+                        <h3>《青玉案·元夕》</h3>
+                        <p>东风夜放花千树，</p>
+                        <p> 更吹落，</p>
+                        <p>星如雨。</p>
+                        <p> 宝马雕车香满路。</p>
+                        <p> 凤箫声动，</p>
+                        <p>玉壶光转，</p>
+                        <p>一夜鱼龙舞。</p>
+                        <p>蛾儿雪柳黄金缕，</p>
+                        <p>笑语盈盈暗香去。</p>
+                        <p>众里寻他千百度，</p>
+                        <p>蓦然回首，</p>
+                        <p>那人却在，</p>
+                        <p>灯火阑珊处。</p>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade text-center"><br>
+                        <h3>《永遇乐·京口北固亭怀古》</h3>
+                        <p> 千古江山，英雄无觅， </p>
+                        <p> 孙仲谋处。</p>
+                        <p> 舞榭歌台，</p>
+                        <p> 风流总被、雨打风吹去。</p>
+                        <p>斜阳草树，寻常巷陌，</p>
+                        <p> 人道寄奴曾住。</p>
+                        <p> 想当年，金戈铁马，</p>
+                        <p> 气吞万里如虎。</p>
+                        <p> 元嘉草草,封狼居胥，</p>
+                        <p>赢得仓皇北顾。</p>
+                        <p> 四十三年，望中犹记，</p>
+                        <p>烽火扬州路。</p>
+                        <p> 可堪回首，佛狸祠下，</p>
+                        <p>一片神鸦社鼓。</p>
+                        <p>凭谁问：</p>
+                        <p>廉颇老矣，</p>
+                        <p> 尚能饭否？</p>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade text-center"><br>
+                        <h3>《西江月·夜行黄沙道中》</h3>
+                        <p>明月别枝惊鹊，</p>
+                        <p>清风半夜鸣蝉。</p>
+                        <p>稻花香里说丰年，</p>
+                        <p>听取蛙声一片。</p>
+                        <p>七八个星天外，</p>
+                        <p>两三点雨山前。</p>
+                        <p>旧时茅店社林边，</p>
+                        <p> 路转溪桥忽见。</p>
+                    </div>
+                </div>
             </div>
 
+
+
         </div>
+
+        <br><br><br>
+        <div class="box">
+            <h3>你好,欢迎进入DRAGONTAIL的测试页面!</h3>
+            <p>这个网页托管到github上,欢迎大家访问!~_~</p>
+        </div>
+    </div>
     </div>
 </body>
 
